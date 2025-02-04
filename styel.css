@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+/* font-family: "Red Hat Display", serif; */
+
+/* 
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: "Red Hat Display", serif;
+    background-color: hsl(225, 100%, 98%);
+    height: 100vh;
+    position: relative;
+}
+main{
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+section{
+   width: 350px;
+   background-color: white;
+   border-radius: 10px;
+   margin: 1em;
+}
+
+section .main-img{
+    width: 100%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+section .bottom-card{
+    padding: 0 20px;
+}
+section  h1{
+    margin: 25px 0;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+section p{
+    text-align: center;
+    color: hsl(223deg 27.19% 47.29%);
+    font-weight: 600;
+    line-height: 1.5;
+}
+.midlle{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f7fe;
+    border-radius: 10px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right img{
+    margin: 10px;
+}
+.right .text .text-top{
+    font-weight: bold;
+color: hsl(223, 47%, 23%);
+}
+.right .text .text-bottom{
+    color: hsl(223, 47%, 23%);
+}
+a{
+    color: hsl(245, 75%, 52%);
+    transition: .5s;
+    font-weight: bold;
+}
+a:hover{
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+button{
+    margin: 30px 0;
+    display: block;
+    border: 0;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: whitesmoke;
+    box-shadow: 0px 6px 4px 3px hsl(245deg 75% 52% / 31%);
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    transform: translatey(-10px);
+    box-shadow: 0px 15px 15px 8px hsl(245deg 75% 52% / 31%);
+}
+.last-p{
+font-weight: 900;
+font-size: 15px;
+color: hsl(224, 23%, 55%);
+padding: 20px 0;
+cursor: pointer;
+transition: .5s;
+}
+.last-p:hover{
+    color:hsl(223, 47%, 23%) ;
+}
